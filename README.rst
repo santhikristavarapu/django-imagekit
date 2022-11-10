@@ -69,7 +69,7 @@ your model class:
                                           format='JPEG',
                                           options={'quality': 60})
 
-    profile = Profile.objects.all()[0]
+    profile = Profil.objects.all()[0]
     print(profile.avatar_thumbnail.url)    # > /media/CACHE/images/982d5af84cddddfd0fbf70892b4431e4.jpg
     print(profile.avatar_thumbnail.width)  # > 100
 
